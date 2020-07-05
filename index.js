@@ -1,8 +1,10 @@
 function theBeatlesPlay(musicians,instruments){
   // return? array where each line is [[musician] plays [instruments]].
   var arrayInternal = [];
-  //var forCounter = musicians.length - 1;
-  console.log(musicians.length - 1);
+  for (i=0, i<musicians.length, i++){
+    
+  }
+  return arrayInternal;
 }
 
 function johnLennonFacts(array){
