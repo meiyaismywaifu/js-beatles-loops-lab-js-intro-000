@@ -23,9 +23,10 @@ function johnLennonFacts(array){
 
 function iLoveTheBeatles(number){
   var arrayInternal;
-  var i = 0;
+  var numberInt = number;
 
   do {
     arrayInternal[i] = "I love the Beatles!";
-  } while ()
+    numberInt++;
+  } while ( 15 - numberInt > 0 )
 }
