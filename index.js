@@ -31,4 +31,5 @@ function iLoveTheBeatles(number){
     i++;
     numberInt++;
   } while ( 15 - numberInt > 0 )
+  return arrayInternal;
 }
