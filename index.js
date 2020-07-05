@@ -7,6 +7,7 @@ function theBeatlesPlay(musicians,instruments){
     stringInternal = musicians[i] + " plays " + instruments[i];
     arrayInternal[i] = stringInternal;
   }
+  
   return arrayInternal;
 }
 
@@ -18,6 +19,7 @@ function johnLennonFacts(array){
     arrayInternal[i] = array[i] + "!!!";
     i++;
   }
+  
   return arrayInternal;
 }
 
@@ -31,5 +33,6 @@ function iLoveTheBeatles(number){
     i++;
     numberInt++;
   } while ( 15 - numberInt > 0 )
+  
   return arrayInternal;
 }
