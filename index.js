@@ -22,7 +22,7 @@ function johnLennonFacts(array){
 }
 
 function iLoveTheBeatles(number){
-  var arrayInternal;
+  var arrayInternal = [];
   var numberInt = number;
   var i = 0;
 
